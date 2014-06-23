@@ -20,7 +20,7 @@ def getVotesFileName(args):
 def printUsage(args):
     print
     print "USAGE:"
-    print "./python ",
+    print "python ",
     print args[0],
     print(" votesfile")
 
