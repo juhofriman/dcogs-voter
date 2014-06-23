@@ -10,6 +10,7 @@ usage
 
 Collect data from discogs as urls and save it in file (new line separated). Run prototype-vote-counter.py with votesfile as an argument.
 
+<pre>
 you@computer:~/vinylcount$ python prototype-vote-counter.py 
 Hello, I'm DISCOGS based prototype of best records ever vote counter
 I lack of unit testing and proper structure. I don't do any caching.
@@ -18,11 +19,11 @@ I'm made of pythons
 
 USAGE:
 ./python  prototype-vote-counter.py  votesfile
-
+</pre>
 
 sample run
 ===========
-
+<pre>
 you@computer:~/vinylcount$ python prototype-vote-counter.py votes.data 
 Hello, I'm DISCOGS based prototype of best records ever vote counter
 I lack of unit testing and proper structure. I don't do any caching.
@@ -127,3 +128,4 @@ http://api.discogs.com/masters/37622 	 VOTES:  1 	Black Sabbath : Reunion
 http://api.discogs.com/release/4513687 	 VOTES:  1 	Screamin' Jay Hawkins : Lawdy Miss Clawdy
 http://api.discogs.com/masters/174547 	 VOTES:  4 	Rezillos : Can't Stand The Rezillos
 http://api.discogs.com/release/1366793 	 VOTES:  1 	Rorschach (2) : Rorschach / Neanderthal
+</pre>
