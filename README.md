@@ -8,7 +8,7 @@ THIS IS A PROTOTYPE HACKED IN TWO HOURS
 usage
 ==========
 
-Collect data from discogs as urls and save it in file (new line separated). Run prototype-vote-counter.py with votesfile as an argument.
+Collect data from discogs as urls and save it in file (new line separated, refer to votes.data in source tree). Run prototype-vote-counter.py with votesfile as an argument.
 
 <pre>
 you@computer:~/vinylcount$ python prototype-vote-counter.py 
@@ -18,7 +18,7 @@ I'm made of pythons
 
 
 USAGE:
-./python  prototype-vote-counter.py  votesfile
+python  prototype-vote-counter.py  votesfile
 </pre>
 
 sample run
